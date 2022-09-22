@@ -1,0 +1,3 @@
+youtube-dl -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 -o "C:\Users\Saurav Gupta\Downloads\%(title)s.%(ext)s" --no-mtime --batch-file list.txt #for downloading in best mp4 video and best audio in Downloads folder
+
+youtube-dl -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 -o "C:\Users\Saurav Gupta\Downloads\%(title)s.%(ext)s" --no-mtime --batch-file list.txt --cookies youtube.com_cookies.txt #for downloading best mp4 video and best audio in Downloads folder for age restricted content 
